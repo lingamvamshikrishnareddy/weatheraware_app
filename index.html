@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <span>WeatherNow</span>
+        </div>
+        <div class="navbar-links">
+           
+            <a href="#home">Home</a>
+            <a href="#weather">Weather</a>
+            <a href="#air-quality">Air Quality</a>
+            <a href="#air-purifiers">Air Purifiers</a>
+            <a href="#face-masks">Face Masks</a>
+            <a href="#air-conditioners">Air Conditioners</a>
+            <a href="#jackets-sweatwear">Jackets & Sweatwear</a>
+            
+        </div>
+        
+        <div class="navbar-buttons">
+            <button id="account-button">Your Account</button>
+           
+        </div>
+    </nav>
+
+    <div id="app">
+        <header>
+            <h1>Weather App</h1>
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-button">Search</button>
+        </header>
+        <main>
+            <div id="weather-display" class="hidden">
+                <!-- Weather data will be displayed here -->
+            </div>
+            <div id="warning" class="hidden">
+                <!-- Warning message will be displayed here -->
+            </div>
+        </main>
+    </div>
+
+  
+
+    <div class="section">
+        <h2>Product Categories</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Air Purifiers & Face Masks</h3>
+                <!-- Content for air purifiers and face masks -->
+            </div>
+            <div class="grid-item">
+                <h3>Air Conditioners & Coolers</h3>
+                <!-- Content for air conditioners and coolers -->
+            </div>
+            <div class="grid-item">
+                <h3>Jackets & Sweatwear</h3>
+                <!-- Content for jackets and sweatwear -->
+            </div>
+            <div class="grid-item">
+                <h3>Beanie & Gloves</h3>
+                <!-- Content for beanie and gloves -->
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Connect with Us</h2>
+        <p>Sign up for newsletters and weather alerts:</p>
+        <form id="connect-form">
+            <input type="email" id="email-input" placeholder="Enter your email" required>
+            <button type="submit" id="signup-button">
+                <span>📧</span>
+                <span>Sign Up</span>
+            </button>
+        </form>
+    </div>
+
+    <div class="footer-section">
+        <div class="footer-group">
+            <h2>About AirAware</h2>
+            <p>About Us</p>
+            <p>Connect Us</p>
+        </div>
+        <div class="footer-group">
+            <h2>Media</h2>
+            <p>Newsroom</p>
+            <p>Press Releases</p>
+            <p>Media Inquiries</p>
+        </div>
+        <div class="footer-group">
+            <h2>Partner</h2>
+            <p>Become a Dealer</p>
+        </div>
+        <div class="footer-terms">
+            <p>Terms of Use</p>
+            <p>Terms of Service</p>
+            <p>Terms of Sale</p>
+            <p>Privacy Policy</p>
+            <p>© 2024 AirAware.com. All rights reserved</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Made with ❤️ by Vamshi Krishna</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
