@@ -70,3 +70,35 @@ WeatherNow is a comprehensive weather application providing current weather cond
    ```sh
    git clone https://github.com/lingamvamshikrishnareddy/weather-now.git
    cd weather-now
+Open the index.html file in your browser to run the application.
+Usage
+Enter the city name in the input field to get the current weather data.
+Allow location access for automatic location detection and weather data fetching.
+Customize your dashboard by selecting the widgets you want to display.
+View air quality index and weather alerts for your selected location.
+Check hourly and weekly forecasts for detailed weather information.
+View historical weather data for the past week or month.
+Use the search suggestions to quickly find cities.
+Access the admin dashboard for platform statistics (restricted to admin users).
+Technologies Used
+HTML5
+CSS3
+JavaScript
+OpenWeatherMap API
+AQICN API
+Security Considerations
+API requests are handled through a proxy server to securely manage API keys.
+Accessibility
+The application is designed to be fully accessible, including support for screen readers and keyboard navigation.
+Performance
+Implements lazy loading, code splitting, and service workers to ensure a smooth and efficient user experience.
+Contributions
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+License
+This project is licensed under the MIT License.
+
+Contact
+For any inquiries or feedback, please contact:
+
+Your Name: lingamvamshikrishnareddy@gmail.com
